@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+.npm-cache/
 
 # Expo
 .expo/
@@ -25,6 +26,8 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+expo-start.log
+expo-error.log
 
 # macOS
 .DS_Store
@@ -32,6 +35,10 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+.env.example
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +46,5 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+/backend/src/generated/

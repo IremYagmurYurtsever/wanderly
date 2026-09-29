@@ -29,8 +29,5 @@ npm install
 npx expo start --clear
 ```
 
-Telefon ve bilgisayar aynı Wi-Fi ağına bağlı olduğunda Expo Go ile çıkan QR kodunu okutarak uygulamayı açabiliyorum. Bağlantı kurulmazsa kök dizindeki `.env.example` dosyasına bakarak kendi bilgisayarımın IP adresini `.env` içinde ayarlıyorum.
-
 ## Şu anki durum
-
-Bu bir sunum projesi; gerçek otel rezervasyonu veya ödeme yapılmıyor. Şifre sıfırlama da şimdilik demo olarak çalışıyor, e-posta göndermiyor. Mekân bilgileri için harici servislerden yararlanıyorum; bu yüzden bazı içerikler internet bağlantısına bağlı. Projeyi geliştirmeye devam ediyorum.
+ Projeyi geliştirmeye devam ediyorum.
